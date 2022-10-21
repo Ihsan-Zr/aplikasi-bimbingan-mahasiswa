@@ -1,0 +1,7 @@
+{
+  "name": "BMU",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
