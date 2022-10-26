@@ -8,7 +8,13 @@ import { Router } from '@angular/router';
 })
 export class Tab1Page {
 
-  constructor(private route: Router) { }
+  public myAngularxQrCode: string = null;
+  
+  constructor(private route: Router) {
+    // https://openbase.com/js/angularx-qrcode 
+    this.myAngularxQrCode = 'Hutao Wangy Wangy';
+  }
+
   logout() {
     this.route.navigate(['/login']);
   }

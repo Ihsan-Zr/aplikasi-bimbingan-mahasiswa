@@ -21,7 +21,8 @@
     <div class="card-content">
       <div class="card-title">
         <h1 class="ion-no-margin">Winona Laura Horowitz</h1>
-        <img src="https://cdn.crunchify.com/wp-content/uploads/2020/12/Crunchify.com-QRCode-gray-color.png" alt="" class="qr"/>
+        <!-- QR code -->
+        <qrcode [qrdata]="myAngularxQrCode" [width]="100" [errorCorrectionLevel]="'M'"></qrcode>
       </div>
 
       <div class="about">

@@ -1,5 +1,5 @@
 ion-content{
-  --background: rgb(94, 172, 217);
+  --background: rgb(33, 70, 199);
 }
 
 .header{
@@ -33,6 +33,8 @@ ion-button{
     width: 50%;
     left: 50%;
     transform: translateX(-50%);
+    // Picture Color Filter
+    // filter: grayscale(100%);
     
     .img{
       display: block;
