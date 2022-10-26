@@ -1,0 +1,10 @@
+.splash{
+    --background: white;
+}
+
+.container{
+    .fade-out{-webkit-animation:fade-out 1s ease-out both;animation:fade-out 1s ease-out both}
+    height: 100px;
+    margin-top: 45%;
+
+}

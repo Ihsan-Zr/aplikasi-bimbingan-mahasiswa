@@ -1,17 +1,33 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content>
+  <div class="header">
+    <ion-buttons>
+      <ion-button>
+        <ion-icon class="icon" slot="icon-only" color='light' name="notifications-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-buttons>
+      <ion-button (click)="logout()">
+        <ion-icon class="icon" slot="icon-only" color='light' name="exit-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </div>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <!-- Profile Picture -->
+  <div class="card">
+    <div class="image">
+      <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/08/09/12/winona-ryder-0.jpg?width=1200" alt="" class="img"/>
+    </div>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+    <div class="card-content">
+      <div class="card-title">
+        <h1 class="ion-no-margin">Winona Laura Horowitz</h1>
+        <img src="https://cdn.crunchify.com/wp-content/uploads/2020/12/Crunchify.com-QRCode-gray-color.png" alt="" class="qr"/>
+      </div>
+
+      <div class="about">
+        <h1>My Information</h1>
+        <p>Winona Laura Horowitz (born October 29, 1971), professionally known as Winona Ryder, is an American actress. Originally playing quirky roles, in the 1990s, she rose to prominence for her more varying roles in productions of diverse genres. She has received various accolades, including a Golden Globe Award, a Screen Actors Guild Award, and nominations for a Grammy Award, two Academy Awards and a BAFTA Award.</p>
+      </div>
+     </div>
+  </div>
 </ion-content>
