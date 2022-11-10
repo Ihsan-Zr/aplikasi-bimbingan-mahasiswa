@@ -1,0 +1,58 @@
+.example-header {
+  background: #2146C7;
+  box-shadow: 2px 6px 5px rgb(29, 29, 29);
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  color: #FFF;
+  font-weight: 300;
+  padding: 1em 1em;
+  text-align: center;
+  h1 {
+      color: #FFF;
+      font-weight: 300;
+      margin-bottom: 20px
+  }
+  p {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      font-weight: 700;
+  }
+}
+  
+  ion-content{
+      // --background: url(https://th.bing.com/th/id/R.31eac477de1b1de455c804177829284d?rik=W0IB%2bn9jGL39fQ&riu=http%3a%2f%2funbin.ac.id%2fasset%2fmedia%2fabout%2f670x350%2flogo.png&ehk=PoxY%2fpsGvfzzsX2PiskOYgMZIbvqaaC6NO4Gb3QkA8A%3d&risl=&pid=ImgRaw&r=0) no-repeat center center / cover;
+      --background: url('https://media.istockphoto.com/id/917266744/vector/social-media-line-seamless-pattern.jpg?s=612x612&w=0&k=20&c=J-G0wp_JL-DpAr0UfNR5J2qSXSsjnETUfLzWntAdHTM=') no-repeat center/cover fixed;
+  
+    * {
+      font-family: 'oswald';  
+      font-size: 20px;
+      margin: 10px;
+    }
+  
+    .bubble {
+      width: 240px;
+      height: auto;
+      display: block;
+      background: rgb(12, 80, 133);
+      border-radius: 30px;
+      color: white;
+      box-shadow: 2px 6px 5px rgb(29, 29, 29);
+      position: relative;
+      margin: 0 20px 15px;
+      &.alt {
+        // margin: 0 0 0 100px;
+        background: #2146C7;
+        color: white;
+        left: 80px;
+      }
+      .txt {
+        padding: 8px 20px 8px 10px;
+        .message {
+          font-size: 17px;
+          margin: 0;
+        }
+      }
+    }
+  
+  }

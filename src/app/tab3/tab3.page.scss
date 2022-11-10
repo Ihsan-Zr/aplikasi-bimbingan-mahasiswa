@@ -1,0 +1,196 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+body {
+    color: #768390;
+    background: #FFF;
+    font-family: "Effra", Helvetica, sans-serif;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+}
+h1,h2,h3,h4,h5,h6 {
+    color: #3D4351;
+    margin-top: 0;
+}
+
+.example-header {
+    background: #2146C7;
+    color: #FFF;
+    font-weight: 300;
+    padding: 3em 1em;
+    text-align: center;
+    h1 {
+        color: #FFF;
+        font-weight: 300;
+        margin-bottom: 20px
+    }
+    p {
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-weight: 700;
+    }
+}
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+
+
+// /basic reset/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    background: #6441A5; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #6441A5, #2a0845); /* Chrome 10-25, Safari 5.1-6 */
+}
+
+.title{
+    text-align: left;
+}
+// /form styles/
+
+#msform {
+    // text-align: center;
+    position: relative;
+    margin-top: 15px;
+}
+
+#msform fieldset {
+    background: white;
+    border: 0 none;
+    border-radius: 0px;
+    box-shadow: 0 0 15px 1px #2146C7;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    width: 90%;
+    margin: 5% 5% 5% 5%;
+
+
+    position: relative;
+}
+
+// /Hide all except first fieldset/
+#msform fieldset:not(:first-of-type) {
+    display: none;
+}
+
+// /inputs/
+#msform input, #msform textarea {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: montserrat;
+    color: #000000;
+    font-size: 13px;
+}
+
+#msform input:focus, #msform textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #000000;
+    outline-width: 0;
+    transition: All 0.5s ease-in;
+    -webkit-transition: All 0.5s ease-in;
+    -moz-transition: All 0.5s ease-in;
+    -o-transition: All 0.5s ease-in;
+}
+
+// /buttons/
+#msform .action-button {
+    width: 100px;
+    background: #2146C7;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+ion-header {
+    ion-toolbar {
+      .bordered {
+        --border-radius: 10px;
+        --box-shadow: 5px 5px 10px #d1d1d1, -5px -5px 10px #FFFFFF;
+      }
+    }
+  }
+  
+  ion-title {
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    font-style: normal;
+    font-weight: lighter;
+  }
+  
+  ion-title {
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    font-style: normal;
+    font-weight: lighter;
+  }
+  
+  ion-content {
+      // --background: linear-gradient(90deg, rgba(43,90,148,1) 0%, rgba(45,112,229,1) 35%, rgba(45,112,229,1) 100%);
+      --background:  rgb(255, 255, 255);
+      // --background:  #87CEFA;
+  
+        .container {
+          padding: 6px 20px;
+          color:#2146C7;
+      
+          ion-item {
+            --background: rgba(255,255,255,.1);
+            padding: 0;
+            margin: 14px 0;
+            --border-radius: 14px;
+            color: #FFFFFF;
+            font-weight: 600;
+      
+            ion-label {
+              padding: 6px 0;
+      
+              h4 {
+                font-weight: 600;
+                font-size: 16px;
+              }
+              h6 {
+                color: rgba(255,255,255,.66);
+              }
+            }
+      
+          }
+      
+          h2 {
+            padding-bottom: 8px;
+          }
+        }    
+    }

@@ -15,20 +15,31 @@
   <!-- Profile Picture -->
   <div class="card">
     <div class="image">
-      <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/08/09/12/winona-ryder-0.jpg?width=1200" alt="" class="img"/>
+      <img src="../../assets/finkom2.png" alt="" class="img"/>
     </div>
 
     <div class="card-content">
       <div class="card-title">
-        <h1 class="ion-no-margin">Winona Laura Horowitz</h1>
+        <h1 class="ion-no-margin">{{name}}</h1>
         <!-- QR code -->
-        <qrcode [qrdata]="myAngularxQrCode" [width]="100" [errorCorrectionLevel]="'M'"></qrcode>
+        <qrcode [qrdata]="QrCode" [width]="100" [errorCorrectionLevel]="'M'" allowEmptyString="true"></qrcode>
       </div>
-
+      
       <div class="about">
-        <h1>My Information</h1>
-        <p>Winona Laura Horowitz (born October 29, 1971), professionally known as Winona Ryder, is an American actress. Originally playing quirky roles, in the 1990s, she rose to prominence for her more varying roles in productions of diverse genres. She has received various accolades, including a Golden Globe Award, a Screen Actors Guild Award, and nominations for a Grammy Award, two Academy Awards and a BAFTA Award.</p>
+        <h1>About</h1>
+          <p>Universitas Binaniaga Indonesia atau disingkat UNBIN adalah sebuah universitas yang berasal dari gabungan 3 Perguruan Tinggi dibawah naungan Yayasan Binaniaga yaitu STIE Binaniaga, STIKOM Binaniaga dan AMIK Bogor. Unbin saat ini memiliki 2 fakultas yaitu Ekonomi dan Ilmu Komputer.</p>
+        </div>
+        <ion-card class="maps">
+          <div class="mapouter">
+            <div class="gmap_canvas">
+              <iframe width="600" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=STIKOM%20Binaniaga%20Bogor&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+              <a href="https://123movies-to.org">123movies</a><br>
+              <style>.mapouter{position:relative;text-align:right;height:100px;width:600px;}</style>
+              <a href="https://www.embedgooglemap.net">google map on website</a>
+              <style>.gmap_canvas {overflow:hidden;background:none!important;height:100px;width:600px;}</style>
+            </div>
+          </div>
+        </ion-card>
       </div>
-     </div>
-  </div>
+    </div>
 </ion-content>

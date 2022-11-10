@@ -1,9 +1,32 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>tab4</ion-title>
-  </ion-toolbar>
+<ion-header [translucent]="true">
+  <script src="https://use.typekit.net/bkt6ydm.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  <header class="example-header">
+      <h1 class="text-center">Information</h1>
+      <p>2022/2023</p>
+  </header>
 </ion-header>
 
-<ion-content>
+<ion-content [fullscreen]="true">
 
+  <div class="bubble">
+    <div class="txt">
+      <!-- <p class="message">{{mahasiswa.fakultas_info}}</p> -->
+      <p class="message">Apply for a course through its dedicated course page. You can also apply to study our modules individually in many cases</p>
+    </div>
+  </div>
+
+  <div class="bubble alt">
+    <div class="txt">
+      <!-- <p class="message">{{mahasiswa.fakultas_info}}</p> -->
+      <p class="message">Remember to attach any avalaible documents we need and if applicable pay any  aplication fee. we won't be able to process your application fully until we have received everything need.</p>  
+    </div>
+  </div>
+
+  <div class="bubble">
+    <div class="txt">
+      <!-- <p class="message">{{mahasiswa.fakultas_info}}</p> -->
+      <p class="message">However, you can still apply wishlist you gather outstanding documentation. We will then write to you requisting this evidence</p>
+    </div>
+  </div>
 </ion-content>

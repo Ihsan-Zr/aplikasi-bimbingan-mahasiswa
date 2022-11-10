@@ -1,0 +1,46 @@
+<ion-content [fullscreen]="true">
+  <script src="https://use.typekit.net/bkt6ydm.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  <header class="example-header">
+      <h1 class="text-center">Detail History Bimbingan</h1>
+      <p>Detail dari data ingan</p>
+  </header>
+  <div>
+    <ion-card>
+      <ion-card-header>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-label>Kode Bimbingan</ion-label>
+        <ion-item>
+          <ion-input disabled="true" [(ngModel)]="kd_bimbingan"></ion-input>
+        </ion-item>
+
+        <ion-label>Tahun Akademik</ion-label>
+        <ion-item>
+          <ion-input disabled="true" [(ngModel)]="thn_akademik"></ion-input>
+        </ion-item>
+    
+        <ion-label>Tanggal</ion-label>
+        <ion-item>
+          <ion-input disabled="true" [(ngModel)]="dentry"></ion-input>
+        </ion-item>
+    
+        <ion-label>Keterangan</ion-label>
+        <ion-item>
+          <ion-input disabled="true" [(ngModel)]="keterangan"></ion-input>
+        </ion-item>
+    
+        
+        <ion-label>Foto</ion-label>
+        <img src="https://ionbmu.gebyar-it.xyz/bmu_native/uploads/{{photo}}">
+        <!-- <ion-item>
+          <input disabled="true" type="file" (change)="imageUpload($event)" />
+        </ion-item> -->
+
+        <div class="container-form-btn">
+          <button (click)="backData()" class="form-btn custom-font"><b>Back</b></button>
+        </div>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>

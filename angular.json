@@ -165,7 +165,7 @@
               "devServerTarget": "app:serve:production"
             }
           }
-        }
+        }    
       }
     }
   },

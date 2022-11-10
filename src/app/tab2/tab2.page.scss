@@ -1,0 +1,124 @@
+ion-header {
+    ion-toolbar {
+      .bordered {
+        --border-radius: 10px;
+        --box-shadow: 5px 5px 10px #d1d1d1, -5px -5px 10px #FFFFFF;
+      }
+    }
+  }
+  
+  .example-header {
+    background: #2146C7;
+    color: #FFF;
+    font-weight: 300;
+    padding: 3em 1em;
+    text-align: center;
+    h1 {
+        color: #FFF;
+        font-weight: 300;
+        margin-bottom: 20px
+    }
+    p {
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-weight: 700;
+    }
+}
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+
+  ion-title {
+    font-size: 20px;
+    font-family: "Effra", Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+  }
+  
+  ion-content {
+    * {
+      font-family: lato;
+    }
+  
+    .main-header {
+      text-align: center;
+      width: 100%;
+      height: 250px;
+      // background: linear-gradient(90deg, rgba(43,90,148,1) 0%, rgba(45,112,229,1) 35%, rgba(45,112,229,1) 100%);
+      background:  rgb(255, 255, 255);
+      // background:  #87CEFA;
+    }
+    ion-card {
+      margin-top: 20px;
+      background-color: transparent;
+      box-shadow: none;
+      text-align: center;
+    }
+    
+    // ion-item {
+    //   --ion-item-background: #536c77;
+    //   text-align: center;
+    //   color: white;
+    //   font-family: "Gill Sans", "Gill Sans MT", Calibri, 
+    //   "Trebuchet MS", sans-serif;
+    //   font-style: italic;
+    //   font-weight: 400;
+    //   font-size: 14px;
+    //   border-radius: 5px;
+    //   height: 40px;
+    //   --min-height: 40px;
+    //   margin-bottom: 10px;
+    // }
+    
+    ion-label {
+      text-align: center;
+    }
+  
+    .inputdata {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 15px;
+      margin-bottom: 10px;
+      width: 100%;
+      height: 70px;
+      // box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      //   padding: 10px;
+      //   background: #30d5c8;
+      border-radius: 2px;
+      outline: none;
+      //   color: #444444;
+      //   border: 1px solid #0da2ff;
+    }
+    // ion-label {
+    //   text-align: center;
+    // }
+    .showdata {
+      --ion-item-background: #2D4263;
+      text-align: center;
+      color: white;
+      font-family: "Effra", Helvetica, sans-serif;
+      font-style: italic;
+      font-weight: 400;
+      font-size: 14px;
+      border-radius: 5px;
+      height: 40px;
+      --min-height: 40px;
+      margin-bottom: 10px;
+    }
+  
+  }
